@@ -4,12 +4,10 @@ import math
 HOST = "127.0.0.1"
 PORT = 65432
 
-print("Server starting - listening for connections at IP", HOST, "and port", PORT)
-
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.bind((HOST, PORT))
     s.listen()
-    print(f"Server is listening on {HOST}:{PORT}")
+    print("Server starting - listening for connections at IP", HOST, "and port", PORT)
 
     conn, addr = s.accept()
     with conn:
