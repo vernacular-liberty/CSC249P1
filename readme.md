@@ -1,4 +1,4 @@
-Application:
+#Application:
 Given any side length the application will find the area or perimeter of an equilateral triangle.
 
 Ex1: 
