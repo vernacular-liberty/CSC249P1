@@ -58,8 +58,10 @@ The client-server application is designed to calculate properties (area or perim
   3. Output: 15
 
 ## Client Trace
-
+  ![Client Trace](image_url_or_path)
+  
 ## Server Trace
+  ![Server Trace](image_url_or_path)
 
 ## Acknowledgments
 Socket Programming in Python (Guide) by Nathan Jennings [https://realpython.com/python-sockets/]
